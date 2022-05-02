@@ -11,7 +11,7 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
 import FilterAltIcon from "@mui/icons-material/FilterAlt";
 import { IconButton } from "@mui/material";
-import FilterItem from "../../Interfaces/FilterItem";
+import FilterItem from "../../interfaces/FilterItem";
 
 export default function CheckboxListSecondary() {
   const { filterItems, filterProductsTab } = useContext(ProductContext);
