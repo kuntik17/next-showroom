@@ -12,6 +12,7 @@ import CommentProvider from "../context/CommentProvider";
 import { useRouter } from "next/router";
 import { getCookie } from "cookies-next";
 import HeaderBar from "../Components/HeaderBar/HeaderBar";
+import "./styles.css";
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
 

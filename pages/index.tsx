@@ -11,6 +11,7 @@ import { SharedContext } from "../context/SharedProvider";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 import Product from "../interfaces/Product";
+
 const Home = () => {
   const { products } = useContext(ProductContext);
   const router = useRouter();
@@ -49,6 +50,7 @@ const Home = () => {
           xs={12}
           sm={12}
           md={12}
+          lg={12}
           sx={{
             display: "flex",
             justifyContent: "center",
